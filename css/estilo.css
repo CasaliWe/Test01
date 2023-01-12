@@ -1,0 +1,149 @@
+/*GLOBAL*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+#active{
+    color: white;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+
+/*INICIO HEADER*/
+.bk-header{
+    background-color: #594E4E;
+}
+
+
+.logo{
+    font-weight: bold;
+    color: black;
+    padding: 0px 10px;
+    background-color: #D9D9D9;
+    transition: 300ms;
+}
+
+.logo:hover{
+    color: rgba(0, 0, 0, 0.541);
+    transition: 300ms;
+}
+
+
+.link-menu{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 13px;
+    transition: 400ms;
+}
+
+.link-menu:hover{
+    color: rgba(255, 255, 255, 0.274);
+    transition: 300ms;
+}
+
+.navbar-toggler {
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*FIM HEADER*/
+
+
+
+
+
+
+/*INICIO CAROUSEL*/
+.img-mobile{
+     width: 100%;
+}
+
+@media (max-width: 600px){
+    .img-mobile{
+        width: 100vh;
+   }
+}
+/*FIM CAROUSEL*/
+
+
+
+
+
+
+/*INICIO SESSÃO*/
+section{
+     background-color: #686868;  
+}
+
+.slogan{
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 20px;
+}
+
+.links{
+     font-size: 12px;
+     color: rgba(255, 255, 255, 0.616);
+     font-weight: 100;
+}
+
+.links:hover{
+    color: rgba(255, 255, 255, 0.521);
+}
+/*FIM SESSÃO*/
+
+
+
+
+
+
+
+/*INICIO FOOTER*/
+footer{
+      background-color: #FFC7C7;
+      font-size: 12px;
+      color: #686868;
+}
+/*FINAL FOOTER*/
+
+
+
+
+
+
+
+/*--------------------------PÁGINA DE CONTATO-----------------------*/
+#form{
+     height: 960px;
+}
+
+#form .space{
+    height: 200px;
+    background-color: #D9D9D9;
+}
+
+.bk-form{
+     background-color: #B6B6B6;
+     height: 760px;
+}
+
+@media (max-width: 1000px){
+    #form{
+        height: 1200px;
+   }
+
+   .bk-form{
+       background-color: #B6B6B6;
+       height: 1000px;
+   }
+}
